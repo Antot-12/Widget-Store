@@ -13,6 +13,11 @@ import { Send, MessageCircle, Star, Bold, Italic, Strikethrough, Smile, Quote, C
 import { Popover, PopoverContent, PopoverTrigger } from './ui/popover';
 import { MarkdownRenderer } from './markdown-renderer';
 
+
+
+
+
+
 interface CommentsSectionProps {
   widgetId: string;
   onCommentsLoaded: (comments: Comment[]) => void;
