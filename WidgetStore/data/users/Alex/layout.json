@@ -1,0 +1,40 @@
+{
+  "templateName": "Default Morning",
+  "components": [
+    {
+      "api": "clock",
+      "state": true,
+      "position": { "top": "20px", "right": "20px" },
+      "style": { "fontWeight": "bold", "fontSize": "4rem" },
+      "color": "cyan"
+    },
+    {
+      "api": "weather",
+      "state": true,
+      "position": { "top": "20px", "left": "20px" },
+      "style": {},
+      "color": "cyan"
+    },
+    {
+      "api": "news",
+      "state": true,
+      "position": { "left": "20px", "bottom": "100px" },
+      "style": { "fontSize": "1rem", "maxWidth": "400px" },
+      "color": "cyan"
+    },
+    {
+      "api": "suggestion",
+      "state": true,
+      "position": { "left": "50%", "bottom": "bottom", "transform": "translateX(-50%)" },
+      "style": { "fontStyle": "italic", "fontSize": "2rem" },
+      "color": "green"
+    },
+    {
+      "api": "calendar",
+      "state": true,
+      "position": { "bottom": "100px", "right": "20px" },
+      "style": { "fontSize": "1.5rem", "maxWidth": "400px" },
+      "color": "cyan"
+    }
+  ]
+}

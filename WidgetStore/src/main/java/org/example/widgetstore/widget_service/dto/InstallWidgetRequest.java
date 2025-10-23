@@ -1,0 +1,13 @@
+package org.example.widgetstore.widget_service.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class InstallWidgetRequest {
+    private Long widgetId;
+    private String api;
+}

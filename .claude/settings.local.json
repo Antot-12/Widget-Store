@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(chmod:*)",
+      "Bash(npm install:*)",
+      "Bash(curl:*)",
+      "Bash(./mvnw compile:*)",
+      "Bash(export:*)",
+      "Bash(find:*)",
+      "Bash(psql:*)",
+      "Bash(./mvnw clean:*)",
+      "Bash(pacman -Ss:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
